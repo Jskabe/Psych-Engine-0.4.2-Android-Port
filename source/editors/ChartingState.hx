@@ -78,15 +78,7 @@ class ChartingState extends MusicBeatState
 		['Camera Follow Pos', "Value 1: X\nValue 2: Y\n\nThe camera won't change the follow point\nafter using this, for getting it back\nto normal, leave both values blank."],
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (Dad, BF or GF)\nValue 2: New suffix (Leave it blank to disable)"],
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
-		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
-		['Add Background', "Value 1: Image, "ex. "Test" "fancy/BG1" "effects/epic/Screen Crack", "Value 2: Scroll Factor (X, Y)ex. "0.5, 0" "1.0, 0.5" (Note: 1.0 makes the background scroll atthe same speed as the characters.)],
-		['Add Overlay', "Value 1:Image, "ex. "Test" "fancy/BG1" "effects/epic/Screen Crack", "Value 2: Scroll Factor (X, Y), "ex. "0.5, 0" "1.0, 0.5"  (Note: 1.0 makes the background scroll atthe same speed as the characters.)],
-		['Play Sound', "Value 1: Sound, "ex. "Testsound" "coolstuff/gunshot" (Sounds located in the "Sounds" folder), "Value 2: VolumeRanges from 0 to 1. (Default: 1) ],
-		['Remove Background', "Value 1: Image Name, "ex. "Test" "fancy/BG1" "effects/epic/Screen Crack", "Value 2: Fade Duration (max 8)"ex. "0.1" "6" ],
-		['Remove Overlay', "Value 1: Image Name, "ex. "Test" "fancy/BG1" "effects/epic/Screen Crack", "Value 2: Fade Duration, "ex. "0.1" "6" ],
-		['SuperCancel', "Insert anywhere to cancel SuperDrain's effect". (ERZ) ],
-		['SuperDrain', "Insert anywhere to immediately begin draining health". (ERZ) ],
-		['Zoom Camera', "Value 1: Zoom distance". ]
+		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"]
 		
 	];
 
